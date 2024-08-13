@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ocs-compositor"
+version = "0.1.0"
+
+[dependencies]
+anyhow = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+live_compositor = { workspace = true }
+compositor_pipeline = { workspace = true }
+compositor_render = { workspace = true }
+wgpu = { version = "0.19.1" }
+winit = "0.29.15"
+tracing = { workspace = true }
+tracing-subscriber = "0.3.18"
+pollster = "0.3.0"
