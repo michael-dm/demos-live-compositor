@@ -121,7 +121,7 @@ fn main() {
     let (wgpu_device, wgpu_queue) = state.pipeline.lock().unwrap().wgpu_ctx();
 
     println!("Registering output");
-    let RawDataReceiver { video } = state
+    let RawDataReceiver { video, audio } = state
         .pipeline
         .lock()
         .unwrap()
@@ -146,7 +146,7 @@ fn main() {
         format: surface_format,
         width: size.width,
         height: size.height,
-        present_mode: wgpu::PresentMode::AutoVsync,
+        present_mode: wgpu::PresentMode::Fifo,
         desired_maximum_frame_latency: 0,
         alpha_mode: wgpu::CompositeAlphaMode::Auto,
         view_formats: vec![],

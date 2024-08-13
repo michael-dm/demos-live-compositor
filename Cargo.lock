@@ -539,7 +539,7 @@ dependencies = [
 [[package]]
 name = "compositor_api"
 version = "0.1.0"
-source = "git+https://github.com/software-mansion/live-compositor.git#3f9bb1ff7e4d28f297d05f184d7a74a1d8552cdc"
+source = "git+https://github.com/michael-dm/live-compositor.git?branch=patch-wgpu-adapter#c8a5bea3e19bcb4d73382a5636092413bcadd758"
 dependencies = [
  "axum",
  "bytes",
@@ -552,7 +552,7 @@ dependencies = [
 [[package]]
 name = "compositor_pipeline"
 version = "0.1.0"
-source = "git+https://github.com/software-mansion/live-compositor.git#3f9bb1ff7e4d28f297d05f184d7a74a1d8552cdc"
+source = "git+https://github.com/michael-dm/live-compositor.git?branch=patch-wgpu-adapter#c8a5bea3e19bcb4d73382a5636092413bcadd758"
 dependencies = [
  "anyhow",
  "bytes",
@@ -578,7 +578,7 @@ dependencies = [
 [[package]]
 name = "compositor_render"
 version = "0.1.0"
-source = "git+https://github.com/software-mansion/live-compositor.git#3f9bb1ff7e4d28f297d05f184d7a74a1d8552cdc"
+source = "git+https://github.com/michael-dm/live-compositor.git?branch=patch-wgpu-adapter#c8a5bea3e19bcb4d73382a5636092413bcadd758"
 dependencies = [
  "bytemuck",
  "bytes",
@@ -1702,7 +1702,7 @@ checksum = "78b3ae25bc7c8c38cec158d1f2757ee79e9b3740fbc7ccf0e59e4b08d793fa89"
 [[package]]
 name = "live_compositor"
 version = "0.1.0"
-source = "git+https://github.com/software-mansion/live-compositor.git#3f9bb1ff7e4d28f297d05f184d7a74a1d8552cdc"
+source = "git+https://github.com/michael-dm/live-compositor.git?branch=patch-wgpu-adapter#c8a5bea3e19bcb4d73382a5636092413bcadd758"
 dependencies = [
  "anyhow",
  "axum",
